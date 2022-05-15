@@ -44,7 +44,7 @@ This is a Python program that trains a CNN (convolutional neural network) model 
 2. If the script runs successfully, you should see two numbers in the terminal output that are separated by a comma. 
     - 1<sup>st</sup> number: the digit classified by the CNN model
     - 2<sup>nd</sup> number: classification confidence level (higher means greater confidence)
-- Example: 'test_image.jpg' is a scanned image of a handwritten digit '2'. To use the included CNN model to classify the handwritten digit, we can type the following command in the shell propmpt: ```python digit_classifier.py image --model cnn```. The terminal would be as follows:
+- Example: 'test_image.jpg' is a scanned image of a handwritten digit '2'. To use the included CNN model to classify the handwritten digit, we can type the following command in the shell propmpt: ```python digit_classifier.py image --model cnn```. The terminal output would be as follows:
     ```console
     2,0.9852445721626282
     ```
