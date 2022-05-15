@@ -4,7 +4,7 @@ This is a Python program that trains a CNN (convolutional neural network) model 
 # Requirements
 - Language: Python 3.8.10
 - Python Libraries:
-  - torch==1.10.2+cu113
+  - torch==1.10.2
   - numpy==1.22.1
   - opencv-python==4.5.5.64
   - python-mnist==0.7
