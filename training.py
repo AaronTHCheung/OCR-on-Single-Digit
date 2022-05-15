@@ -93,7 +93,3 @@ if __name__ == "__main__":
             }, model_filepath)
         print("Epoch (" + str(e+1) + "/"+str(epoches)+"): Testing Accuracy (current, best)=("+'%.3f' %
               Decimal(curr_accuracy)+", "+'%.3f' % Decimal(best_accuracy)+")")
-
-    best_model_save = torch.load(model_filepath)
-    model = CNN()
-    model.load_state_dict(best_model_save['state_dict'])
