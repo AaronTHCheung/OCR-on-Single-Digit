@@ -39,7 +39,7 @@ This is a Python program that trains a CNN (convolutional neural network) model 
 
 # Running the digit classifier
 1. Type the following command in the shell propmt: ```python digit_classifier.py image --model model```. Below are the description of the command line arguments:
-    - filename (required): digit image to be classified (in .jpg format)
+    - filename (required): digit image to be classified (in .jpg/.jpeg format)
     - model (optional): CNN model to be used (default: 'cnn')
 2. If the script runs successfully, you should see two numbers in the terminal output that are separated by a comma. 
     - 1<sup>st</sup> number: the digit classified by the CNN model
