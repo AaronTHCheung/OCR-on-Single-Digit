@@ -1,5 +1,5 @@
 # Program description
-This is a Python program that trains a CNN (convolutional neural network) model to classify handwritten single digits. The CNN model will be trained on the MNIST dataset. The trained classifer can recognize handwritten single digit (0-9) on a scanned image.
+This is a Python program that trains a CNN (convolutional neural network) model to classify handwritten single digits. The CNN model will be trained on the MNIST dataset. The trained classifer can recognize handwritten single digit (0-9) on a scanned JPG/JPEG image.
 
 # Requirements
 - Language: Python 3.8.10
